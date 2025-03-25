@@ -85,6 +85,14 @@ const pages = [
         dr_risorse + "immagine_profilo_ale.jpg",
         getRandomBlueTone()
     ],
+ Giada
+    [
+        "Giada", 
+        dr_pagine + "Giada/Giada.html",
+        dr_risorse + "immagine_profilo_giada.jpg",
+        getRandomBlueTone();
+
+    ],
 ];
 
 const numero_cubi = pages.length;
@@ -93,5 +101,3 @@ const step_dimensione = (dimensione_max - dimensione_min) / (numero_cubi - 1);
 pages.forEach((page, index) => {
     page[4] = dimensione_min + step_dimensione * index;
 });
-
-
