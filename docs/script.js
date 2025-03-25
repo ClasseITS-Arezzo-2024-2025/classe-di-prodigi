@@ -85,12 +85,12 @@ const pages = [
         dr_risorse + "immagine_profilo_ale.jpg",
         getRandomBlueTone()
     ],
- Giada
+	
     [
         "Giada", 
         dr_pagine + "Giada/Giada.html",
         dr_risorse + "immagine_profilo_giada.jpg",
-        getRandomBlueTone();
+        getRandomBlueTone()
 
     ],
 ];
